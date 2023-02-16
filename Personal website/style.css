@@ -1,0 +1,379 @@
+body{
+  margin:0px;
+  height: auto;
+  font-family: 'Philosopher', sans-serif;
+}
+
+
+
+/* Menu link */
+
+.sidebar {
+  margin-top: 0;
+  padding-top: 80px;
+  width: 15%;
+  background-color: #ffffff;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding:24px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 16px;
+}
+
+.sidebar a.active {
+  color: black;
+  font-weight: bold;
+}
+
+.sidebar a:hover:not(.active) {
+color: black;
+opacity:20%;
+}
+
+
+
+a:link{
+  text-decoration: none;
+  color:black;
+}
+
+a:hover{
+  text-decoration: none;
+  color:grey;
+}
+
+a:visited{
+  text-decoration: none;
+  color:black;
+}
+
+a:active{
+  text-decoration: none;
+  color:black;
+}
+
+.menucollapsed
+{
+  text-decoration: none;
+  position: fixed;
+  display: inline-block;
+  width: 200px;
+  height: auto;
+  font-size: 24px;
+  padding: 130px 80px 130px 80px;
+  overflow: auto;
+  background-color:white;
+  font-family: 'Philosopher', sans-serif;
+  clip: rect(0px,60px,200px,0px);
+}
+
+/* Workspace edits */
+
+.workspace {
+  width:80%;
+  height:100%;
+  position:relative;
+  float: right;
+  padding-right: 0;
+  text-align: left;
+  }
+
+.heading-home{
+  width: 300px;
+  padding:200px 0 200px 0;
+  position: relative;
+  display: inline-block;
+}
+.vl {
+  border-left: 3px solid black;
+  height:140px;
+  width:5px;
+  position: absolute;
+}
+
+.hl {
+  width:auto;
+  height:2px;
+  background: black;
+  opacity: 10%;
+  height: 2px;
+}
+
+.name-head{
+  width: auto;
+  position: relative;
+  left: 40px;
+  bottom:10px;
+}
+
+.heading-name {
+  width:auto;
+  font-size: 24px;
+  line-height: 30px;
+  margin:20px 0;
+  position: relative;
+}
+
+/* About */
+.experience-list{
+  padding: 5px 0;
+line-height: 10px;
+}
+
+.education-list{
+  padding: 5px 0;
+line-height: 10px;
+}
+
+/* Portfolio */
+.image{
+  width:250px;
+  margin-bottom:20px;
+  height: auto;
+  border-radius:10px;
+}
+
+.bannerimages{
+  width:auto;
+  padding-bottom:20px;
+  height: auto;
+}
+
+.portfolio-hl{
+  border-left: 250px solid black;
+  opacity: 10%;
+  height: 1px;
+}
+
+
+.portfoliocards{
+  margin:30px 0 30px 0;
+}
+
+.portfoliocard1{
+  margin:20px 15px 20px 15px;
+}
+
+.portfoliocard1{
+  width:250px;
+  height:auto;
+  padding:20px;
+  display: inline-block;
+  border-radius: 2px;
+  box-shadow: 0px 0px 1px #717171;
+
+}
+
+.portfolio-text{
+  font-size: 24px;
+  margin-bottom:5px;
+  line-height: 30px;
+}
+
+.portfolio-description {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* Contact */
+
+.contact{
+  /* margin:10px 0 10px 0; */
+}
+
+.contact-list{
+  padding:20px 0 20px 0;
+  display:inline-block;
+}
+
+.contactimage{
+  width:3;
+  height:3;
+}
+
+.contacttext{
+  position: relative;
+}
+
+.contact-listview{
+  float: left;
+  margin: 0 10px 0 10px;
+}
+
+/* location */
+.location1{
+  margin:-20px 0 10px 0;
+  line-height: 30px;
+}
+
+.location-list{
+  line-height: 20PX;
+}
+
+/* Socialmedia */
+
+.socialmedia{
+  margin:50px 0 0 0;
+}
+
+.socialmedia-list{
+  padding:20px 0 20px 0;
+  display:inline-block;
+}
+
+.socialmediaimage{
+  width:36px;
+  height:36px;
+}
+
+.socialmediatext{
+  position: relative;
+}
+
+.socialmedia-listview{
+  float: left;
+  margin: 0 20px 0 20px;
+}
+
+
+
+/* Overall Mark */
+.overall{
+
+}
+
+.iconlist{
+  width:100px;
+  display: inline;
+}
+
+.icon{
+  width:12px;
+  height:12px;
+}
+
+.ratingtext{
+display: inline-block;
+margin:11px 0 11px 0;
+}
+
+.overall-numbers{
+display: inline-block;
+margin:30px 0 30px 0;
+
+}
+
+.numbers-list1{
+  height:auto;
+  padding:20px;
+  width: 150px;
+  display: block;
+  text-align: center;
+  float: left;
+  position: relative;
+  margin-left:10px;
+  margin-right:10px;
+  border: 0.5px solid black;
+  background-color: #ECECEC;
+}
+
+.list1{
+  font-size: 36px;
+  font-weight: bold;
+  margin:20px 0 10px 0;
+}
+
+/* skills */
+.hl1 {
+  border-left: 150px solid black;
+  opacity: 100%;
+  height: 2px;
+}
+
+.hl2 {
+  border-left: 100px solid black;
+  opacity: 100%;
+  height: 2px;
+}
+
+.hl3 {
+  border-left: 80px solid black;
+  opacity: 100%;
+  height: 2px;
+}
+
+.skills-numbers{
+display: inline-block;
+margin:30px 0px 30px 0px;
+
+}
+
+.skills-list1{
+  height:auto;
+  padding:20px 20px 20px 20px;
+  width: 150px;
+  display: block;
+  text-align: left;
+  float: left;
+  position: relative;
+  margin-left:10px;
+  margin-right:10px;
+  border: 0.5px solid black;
+  line-height: 40px;
+}
+
+.skillslist1{
+  font-size: 18px;
+  font-weight: bold;
+  margin:0px 0 10px 0;
+}
+
+.skillslist1-description{
+
+  margin:0px 0 0px 0;
+}
+
+
+/* media queries */
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
