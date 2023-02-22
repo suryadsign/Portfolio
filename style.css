@@ -24,7 +24,7 @@ body{
   padding:24px;
   text-decoration: none;
   text-align: center;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .sidebar a.active {
@@ -78,10 +78,9 @@ a:active{
 
 .workspace {
   width:80%;
-  height:100%;
+  height:auto;
   position:relative;
   float: right;
-  padding-right: 0;
   text-align: left;
   }
 
@@ -99,7 +98,7 @@ a:active{
 }
 
 .hl {
-  width:auto;
+  width:92%;
   height:2px;
   background: black;
   opacity: 10%;
@@ -133,6 +132,23 @@ line-height: 10px;
 }
 
 /* Portfolio */
+
+
+
+.button-interaction{
+
+  position:relative;
+  margin:30px 35% 0px 35%;
+  width: auto;
+  padding:10px 60px;
+  background-color: black;
+  color:white;
+  stroke:none;
+  font-weight: bold;
+  cursor:pointer;
+  text-align: center;
+}
+
 .image{
   width:250px;
   margin-bottom:20px;
@@ -158,7 +174,7 @@ line-height: 10px;
 }
 
 .portfoliocard1{
-  margin:20px 15px 20px 15px;
+  margin:0px 10px 0px 10px;
 }
 
 .portfoliocard1{
@@ -336,46 +352,12 @@ margin:30px 0px 30px 0px;
 }
 
 .skillslist1-description{
-
   margin:0px 0 0px 0;
 }
 
-
-/* media queries */
-/* For mobile phones: */
-[class*="col-"] {
-  width: 100%;
-}
-
-@media only screen and (min-width: 600px) {
-  /* For tablets: */
-  .col-s-1 {width: 8.33%;}
-  .col-s-2 {width: 16.66%;}
-  .col-s-3 {width: 25%;}
-  .col-s-4 {width: 33.33%;}
-  .col-s-5 {width: 41.66%;}
-  .col-s-6 {width: 50%;}
-  .col-s-7 {width: 58.33%;}
-  .col-s-8 {width: 66.66%;}
-  .col-s-9 {width: 75%;}
-  .col-s-10 {width: 83.33%;}
-  .col-s-11 {width: 91.66%;}
-  .col-s-12 {width: 100%;}
-}
-@media only screen and (min-width: 768px) {
-  /* For desktop: */
-  .col-1 {width: 8.33%;}
-  .col-2 {width: 16.66%;}
-  .col-3 {width: 25%;}
-  .col-4 {width: 33.33%;}
-  .col-5 {width: 41.66%;}
-  .col-6 {width: 50%;}
-  .col-7 {width: 58.33%;}
-  .col-8 {width: 66.66%;}
-  .col-9 {width: 75%;}
-  .col-10 {width: 83.33%;}
-  .col-11 {width: 91.66%;}
-  .col-12 {width: 100%;}
+.skill-subhead{
+  font-size:18px;
+  margin-bottom:10px;
 }
 
 
@@ -385,4 +367,86 @@ margin:30px 0px 30px 0px;
  .UX-banner{
    width:100%;
    height:auto;
+ }
+
+ /* Viewport */
+ @media screen and (min-width:360px)and (max-width:1200px){
+   .sidebar {
+     padding-top:20px;
+     width:100%;
+ position: relative;
+ text-align: center;
+   }
+   .workspace{
+     width: 100%;
+     margin:0 auto 0 auto;
+     text-align: center;
+   }
+
+   a.portfoliocard1 {
+     margin-bottom:30px;
+   }
+
+   .portfoliocards{
+     margin:5px 0;
+   }
+
+   .overall-numbers{
+     width:40%;
+     padding:10px;
+   }
+
+   .skills-numbers{
+     margin-top:0px;
+   }
+
+   .skills-list1{
+     margin-top:0;
+     margin-left: 30px;
+     margin-bottom: 20px;
+   }
+
+   .hl {
+     width:80%;
+     margin:0 auto 0 auto;
+     height:2px;
+     background: black;
+     opacity: 10%;
+     height: 2px;
+   }
+
+   .skill-subhead{
+     width: 80%;
+     margin:30px auto;
+
+   }
+
+   .skills{
+     margin:0px;
+   }
+
+   .numbers-list1{
+     margin-bottom: 20px;
+     background-color: #ECECEC;
+   }
+
+   .heading-home{
+     padding:50px 0 50px 0;
+     width: 100%;
+   }
+
+   .vl{
+     width:330px;
+     position: absolute;
+     left:115px;
+     top:35px;
+     border-top:3px solid black;
+     border-left:0px;
+   }
+
+   .heading-name{
+     line-height: 20px;
+     margin:20px 0;
+   }
+
  }
