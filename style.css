@@ -471,3 +471,95 @@ margin:30px 0px 30px 0px;
    }
 
  }
+
+
+ /* Viewport */
+ @media screen and (min-width:540px)and (max-width:1000px){
+   .sidebar {
+     padding-top:20px;
+     width:100%;
+ position: relative;
+ text-align: center;
+   }
+   .workspace{
+     width: 100%;
+     margin:0 auto 0 auto;
+     text-align: center;
+   }
+
+   a.portfoliocard1 {
+     margin-bottom:30px;
+   }
+
+   .portfoliocards{
+     margin:5px 0;
+   }
+
+   .overall-numbers{
+     width:80%;
+     margin:30px 10px;
+   }
+
+   .numbers-list1{
+     width: 50%;
+     position: relative;
+     left:20%;
+
+   }
+
+   .skills-numbers{
+     width:80%;
+     margin:0 auto 0 auto;
+  }
+
+   .skills-list1{
+     width:200px;
+     margin:10px;
+     position: relative;
+     left:30px;
+   }
+
+
+
+   .hl {
+     width:80%;
+     margin:0 auto 0 auto;
+     height:2px;
+     background: black;
+     opacity: 10%;
+     height: 2px;
+   }
+
+   .skill-subhead{
+     width: 100%;
+     margin:30px auto;
+
+   }
+
+   .skills{
+     margin:0px;
+   }
+
+   .numbers-list1{
+     margin-bottom: 20px;
+     background-color: #ECECEC;
+   }
+
+   .heading-home{
+     padding:50px 0 100px 0;
+     width: 100%;
+   }
+
+   .heading-name{
+     line-height: 40px;
+     margin:10px 0;
+   }
+
+   .name-head{
+     left:0px;
+     top:60px;
+     width:auto;
+     position: relative;
+   }
+
+ }
