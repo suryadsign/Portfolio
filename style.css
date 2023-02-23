@@ -370,13 +370,14 @@ margin:30px 0px 30px 0px;
  }
 
  /* Viewport */
- @media screen and (min-width:360px)and (max-width:1200px){
+ @media screen and (min-width:360px)and (max-width:540px){
    .sidebar {
      padding-top:20px;
      width:100%;
  position: relative;
  text-align: center;
    }
+
    .workspace{
      width: 100%;
      margin:0 auto 0 auto;
@@ -392,12 +393,23 @@ margin:30px 0px 30px 0px;
    }
 
    .overall-numbers{
-     width:40%;
-     padding:10px;
+     width:80%;
+     margin:30px auto 30px auto;
+   }
+
+   .numbers-list1{
+     width:80%;
+     margin:0 auto 0 auto;
+     position: relative;
+     left:20px;
+   }
+
+   .overall-numbers{
+     width:100%;
    }
 
    .skills-numbers{
-     margin-top:0px;
+     margin:0 20% 0 20%;
    }
 
    .skills-list1{
@@ -436,13 +448,15 @@ margin:30px 0px 30px 0px;
    }
 
    .vl{
-     width:330px;
+     width:80%;
      position: absolute;
-     left:85px;
+     left:40px;
      top:80px;
+     margin:0 auto 0 auto;
      border-top:3px solid black;
      border-left:0px;
    }
+
 
    .heading-name{
      line-height: 40px;
