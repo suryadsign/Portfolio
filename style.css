@@ -33,8 +33,8 @@ body{
 }
 
 .sidebar a:hover:not(.active) {
-color: black;
-opacity:20%;
+  color: black;
+  opacity:20%;
 }
 
 
@@ -82,7 +82,7 @@ a:active{
   position:relative;
   float: right;
   text-align: left;
-  }
+}
 
 .heading-home{
   width: 300px;
@@ -95,6 +95,7 @@ a:active{
   height:140px;
   width:5px;
   position: absolute;
+  opacity: 0%;
 }
 
 .hl {
@@ -126,7 +127,7 @@ a:active{
 /* About */
 .experience-list{
   padding: 5px 0;
-line-height: 10px;
+  line-height: 10px;
 
 }
 
@@ -279,13 +280,13 @@ line-height: 10px;
 }
 
 .ratingtext{
-display: inline-block;
-margin:11px 0 11px 0;
+  display: inline-block;
+  margin:11px 0 11px 0;
 }
 
 .overall-numbers{
-display: inline-block;
-margin:30px 0 30px 0;
+  display: inline-block;
+  margin:30px 0 30px 0;
 
 }
 
@@ -329,8 +330,8 @@ margin:30px 0 30px 0;
 }
 
 .skills-numbers{
-display: inline-block;
-margin:30px 0px 30px 0px;
+  display: inline-block;
+  margin:30px 0px 30px 0px;
 
 }
 
@@ -365,256 +366,259 @@ margin:30px 0px 30px 0px;
 
 
 /* portfoliodisplay
- */
+*/
 
- .UX-banner{
-   width:100%;
-   height:auto;
- }
+.UX-banner{
+  width:100%;
+  height:auto;
+}
 
- /* Viewport */
- @media screen and (min-width:360px)and (max-width:540px){
-   .sidebar {
-     padding-top:20px;
-     width:100%;
- position: relative;
- text-align: center;
-   }
-
-   .workspace{
-     width: 100%;
-     margin:0 auto 0 auto;
-     text-align: center;
-   }
-
-   a.portfoliocard1 {
-     margin-bottom:30px;
-   }
-
-   .portfoliocards{
-     margin:5px 0;
-   }
-
-   .overall-numbers{
-     width:80%;
-     margin:30px auto 30px auto;
-   }
-
-   .numbers-list1{
-     width:80%;
-     margin:0 auto 0 auto;
-     position: relative;
-     left:20px;
-   }
-
-   .overall-numbers{
-     width:100%;
-   }
-
-   .skills-numbers{
-     margin:0 20% 0 20%;
-   }
-
-   .skills-list1{
-     margin-top:0;
-     margin-left: 30px;
-     margin-bottom: 20px;
-   }
-
-   .hl {
-     width:80%;
-     margin:0 auto 0 auto;
-     height:2px;
-     background: black;
-     opacity: 10%;
-     height: 2px;
-   }
-
-   .skill-subhead{
-     width: 80%;
-     margin:30px auto;
-
-   }
-
-   .skills{
-     margin:0px;
-   }
-
-   .numbers-list1{
-     margin-bottom: 20px;
-     background-color: #ECECEC;
-   }
-
-   .heading-home{
-     padding:50px 0 100px 0;
-     width: 100%;
-   }
-
-   .vl{
-     width:80%;
-     position: absolute;
-     left:40px;
-     top:80px;
-     margin:0 auto 0 auto;
-     border-top:3px solid black;
-     border-left:0px;
-   }
-
-
-   .heading-name{
-     line-height: auto;
-     width: 80%;
-     font-size:12px;
-     margin:0 auto 0px auto;
-   }
-
-   .experience-history{
-     width:80%;
-     margin:20px auto 20px auto;
-     font-size:24px;
-     line height:auto;
-     text-align: center;
-   }
-
-   .name-head{
-     left:0px;
-     top:60px;
-     width:auto;
-     position: relative;
-   }
-
-   .contact-listview{
-     float:none;
-     margin-bottom: 40px;
-   }
-
-   .socialmedia-listview{
-     float:none;
-     margin-bottom: 20px;
-   }
-
-   .UX-banner{
-     margin-top:30px;
-   }
-
-   .button-interaction{
-     margin:30px auto 30px auto;
-   }
-
-   .figma{
-     width:360px;
-     height:600px;
-     width: 100%;
-     margin:0 auto;
-   }
-
- }
-
-
- /* Viewport */
- @media screen and (min-width:540px)and (max-width:800px){
-   .sidebar {
-     padding-top:20px;
-     width:100%;
- position: relative;
- text-align: center;
-   }
-   .workspace{
-     width: 100%;
-     margin:0 auto 0 auto;
-     text-align: center;
-   }
-
-   a.portfoliocard1 {
-     margin-bottom:30px;
-   }
-
-   .portfoliocards{
-     margin:5px 0;
-   }
-
-   .overall-numbers{
-     width:80%;
-     margin:30px 10px;
-   }
-
-   .numbers-list1{
-     width: 50%;
-     position: relative;
-     left:20%;
-
-   }
-
-   .skills-numbers{
-     width:80%;
-     margin:0 auto 0 auto;
+/* Viewport */
+@media screen and (min-width:360px)and (max-width:540px){
+  .sidebar {
+    padding-top:20px;
+    width:100%;
+    position: relative;
+    text-align: center;
   }
 
-   .skills-list1{
-     width:200px;
-     margin:10px;
-     position: relative;
-     left:30px;
-   }
+  .workspace{
+    width: 100%;
+    margin:0 auto 0 auto;
+    text-align: center;
+  }
+
+  a.portfoliocard1 {
+    margin-bottom:30px;
+  }
+
+  .portfoliocards{
+    margin:5px 0;
+  }
+
+  .overall-numbers{
+    width:80%;
+    margin:30px auto 30px auto;
+  }
+
+  .numbers-list1{
+    width:80%;
+    margin:0 auto 0 auto;
+    position: relative;
+    left:20px;
+  }
+
+  .overall-numbers{
+    width:100%;
+  }
+
+  .skills-numbers{
+    margin:0 20% 0 20%;
+  }
+
+  .skills-list1{
+    margin-top:0;
+    margin-left: 30px;
+    margin-bottom: 20px;
+  }
+
+  .hl {
+    width:80%;
+    margin:0 auto 0 auto;
+    height:2px;
+    background: black;
+    opacity: 10%;
+    height: 2px;
+  }
+
+  .skill-subhead{
+    width: 80%;
+    margin:30px auto;
+
+  }
+
+  .skills{
+    margin:0px;
+  }
+
+  .numbers-list1{
+    margin-bottom: 20px;
+    background-color: #ECECEC;
+  }
+
+  .heading-home{
+    padding:50px 0 100px 0;
+    width: 100%;
+  }
+
+  .vl{
+    width:80%;
+    position: absolute;
+    left:40px;
+    top:80px;
+    margin:0 auto 0 auto;
+    border-top:3px solid black;
+    border-left:0px;
+  }
+
+
+  .heading-name{
+    line-height: auto;
+    width: 80%;
+    font-size:12px;
+    margin:20px auto 0px auto;
+  }
+
+  .experience-history{
+    width:80%;
+    margin:20px auto 20px auto;
+    font-size:24px;
+    line height:auto;
+    text-align: center;
+  }
+
+  .name-head{
+    left:0px;
+    top:60px;
+    width:auto;
+    position: relative;
+  }
+
+  .contact-listview{
+    float:none;
+    margin-bottom: 40px;
+  }
+
+  .socialmedia-listview{
+    float:none;
+    margin-bottom: 20px;
+  }
+
+  .UX-banner{
+    margin-top:30px;
+  }
+
+  .button-interaction{
+    margin:30px auto 30px auto;
+  }
+
+  .figma{
+    width:360px;
+    height:600px;
+    width: 100%;
+    margin:0 auto;
+  }
+  .vl{
+    opacity:100%;
+  }
+}
 
 
 
-   .hl {
-     width:80%;
-     margin:0 auto 0 auto;
-     height:2px;
-     background: black;
-     opacity: 10%;
-     height: 2px;
-   }
+/* Viewport */
+@media screen and (min-width:540px)and (max-width:800px){
+  .sidebar {
+    padding-top:20px;
+    width:100%;
+    position: relative;
+    text-align: center;
+  }
+  .workspace{
+    width: 100%;
+    margin:0 auto 0 auto;
+    text-align: center;
+  }
 
-   .skill-subhead{
-     width: 100%;
-     margin:30px auto;
+  a.portfoliocard1 {
+    margin-bottom:30px;
+  }
 
-   }
+  .portfoliocards{
+    margin:5px 0;
+  }
 
-   .skills{
-     margin:0px;
-   }
+  .overall-numbers{
+    width:80%;
+    margin:30px 10px;
+  }
 
-   .numbers-list1{
-     margin-bottom: 20px;
-     background-color: #ECECEC;
-   }
+  .numbers-list1{
+    width: 50%;
+    position: relative;
+    left:20%;
 
-   .heading-home{
-     padding:50px 0 100px 0;
-     width: 100%;
-   }
+  }
 
-   .heading-name{
-     line-height: 40px;
-     margin:10px 0;
-   }
+  .skills-numbers{
+    width:80%;
+    margin:0 auto 0 auto;
+  }
 
-   .name-head{
-     left:0px;
-     top:60px;
-     width:auto;
-     position: relative;
-   }
-
-   .UX-banner{
-     margin-top:30px;
-   }
-
-
-   .button-interaction{
-     margin:30px auto 30px auto;
-   }
-
-   .figma{
-     width:360px;
-     height:600px;
-     width: 100%;
-     margin:0 auto;
-   }
+  .skills-list1{
+    width:200px;
+    margin:10px;
+    position: relative;
+    left:30px;
+  }
 
 
- }
+
+  .hl {
+    width:80%;
+    margin:0 auto 0 auto;
+    height:2px;
+    background: black;
+    opacity: 10%;
+    height: 2px;
+  }
+
+  .skill-subhead{
+    width: 100%;
+    margin:30px auto;
+
+  }
+
+  .skills{
+    margin:0px;
+  }
+
+  .numbers-list1{
+    margin-bottom: 20px;
+    background-color: #ECECEC;
+  }
+
+  .heading-home{
+    padding:50px 0 100px 0;
+    width: 100%;
+  }
+
+  .heading-name{
+    line-height: 40px;
+    margin:10px 0;
+  }
+
+  .name-head{
+    left:0px;
+    top:60px;
+    width:auto;
+    position: relative;
+  }
+
+  .UX-banner{
+    margin-top:30px;
+  }
+
+
+  .button-interaction{
+    margin:30px auto 30px auto;
+  }
+
+  .figma{
+    width:360px;
+    height:600px;
+    width: 100%;
+    margin:0 auto;
+  }
+
+
+}
