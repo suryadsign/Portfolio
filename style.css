@@ -5,6 +5,27 @@ body{
 }
 
 
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 200;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+
 
 /* Menu link */
 
@@ -379,6 +400,7 @@ a:active{
 
 /* Viewport */
 @media screen and (min-width:360px)and (max-width:540px){
+
   .sidebar {
     padding-top:20px;
     width:100%;
