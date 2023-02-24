@@ -329,7 +329,7 @@ a:active{
   height: 2px;
 }
 
-.skills-numbers{
+      .skills-numbers{
   display: inline-block;
   margin:30px 0px 30px 0px;
 
@@ -413,7 +413,7 @@ a:active{
   }
 
   .skills-numbers{
-    margin:0 20% 0 20%;
+    margin:20px 20% 0 20%;
   }
 
   .skills-list1{
@@ -551,7 +551,7 @@ a:active{
 
   .skills-numbers{
     width:80%;
-    margin:0 auto 0 auto;
+    margin:20px auto 0 auto;
   }
 
   .skills-list1{
