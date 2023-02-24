@@ -85,8 +85,8 @@ a:active{
 }
 
 .heading-home{
-  width: 300px;
-  padding:200px 0 200px 0;
+  width: 100%;
+  /* padding:200px 0 200px 0; */
   position: relative;
   display: inline-block;
 }
@@ -110,7 +110,7 @@ a:active{
   width: auto;
   position: relative;
   margin-top:50px;
-  left: 40px;
+  left: 0;
   bottom:10px;
 
 }
@@ -127,8 +127,12 @@ a:active{
 /* About */
 .experience-list{
   padding: 5px 0;
-  line-height: 10px;
+  line-height: auto;
 
+}
+
+.education-list{
+  margin-top:30px;
 }
 
 
@@ -329,7 +333,7 @@ a:active{
   height: 2px;
 }
 
-      .skills-numbers{
+.skills-numbers{
   display: inline-block;
   margin:30px 0px 30px 0px;
 
@@ -479,7 +483,7 @@ a:active{
 
   .name-head{
     left:0px;
-    top:60px;
+    top:20px;
     width:auto;
     position: relative;
   }
@@ -551,7 +555,7 @@ a:active{
 
   .skills-numbers{
     width:80%;
-    margin:20px auto 0 auto;
+    margin:0 auto 0 auto;
   }
 
   .skills-list1{
