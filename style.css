@@ -131,7 +131,7 @@ a:active{
 .name-head{
   width: auto;
   position: relative;
-  margin-top:50px;
+  margin-top:30px;
   left: 0;
   bottom:10px;
 
@@ -141,7 +141,7 @@ a:active{
   width:auto;
   font-size: 24px;
   line-height: 30px;
-  margin:10px 0px;
+  margin:0px 0px;
   position: relative;
 
 }
@@ -369,7 +369,7 @@ a:active{
   text-align: left;
   float: left;
   position: relative;
-  margin-left:0px;
+  margin-left:0p;
   margin-right:10px;
   /* border: 0.5px solid black; */
   line-height: 40px;
@@ -620,7 +620,7 @@ a:active{
   }
 
   .heading-name{
-    width:60%;
+    width:auto;
     line-height: 40px;
     margin:0px auto;
   }
