@@ -5,6 +5,7 @@ body{
 }
 
 
+
 #myBtn {
   display: none;
   position: fixed;
@@ -112,6 +113,7 @@ a:active{
   position: relative;
   display: inline-block;
 }
+
 .vl {
   border-left: 3px solid black;
   height:140px;
@@ -233,7 +235,7 @@ a:active{
 }
 
 .contact-list{
-  padding:30px 0 30px 0;
+  padding:15px 0 15px 0;
   display:inline-block;
 }
 
@@ -305,7 +307,7 @@ a:active{
 
 .ratingtext{
   display: inline-block;
-  margin:11px 0 11px 0;
+  margin:10px 5px 10px 5px;
 }
 
 .overall-numbers{
@@ -501,7 +503,7 @@ a:active{
 
   .experience-history{
     width:80%;
-    margin:20px auto 20px auto;
+    margin:0px auto 0px auto;
     font-size:24px;
     line height:auto;
     text-align: center;
@@ -617,7 +619,7 @@ a:active{
 }  }
 
   .heading-home{
-    padding:0 0 100px 0;
+    padding:0 0 60px 0;
     width: 100%;
   }
 
@@ -627,7 +629,7 @@ a:active{
     margin:10px auto;
   }
 
-  .heading-name surya{
+  .heading-name .surya{
     margin:20px 0;
   }
 
