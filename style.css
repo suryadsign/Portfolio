@@ -141,7 +141,6 @@ a:active{
   width:auto;
   font-size: 24px;
   line-height: 30px;
-  margin:0px 0px;
   position: relative;
 
 }
@@ -165,10 +164,9 @@ a:active{
 .button-interaction{
 
   position:relative;
-  margin:30px 35% 30px 35%;
-  width: auto;
-  padding:10px 60px;
-  background-color: black;
+  margin:30px auto 30px auto;
+  padding:10px 30px;
+  background-color: #a65e12;
   color:white;
   stroke:none;
   font-weight: bold;
@@ -270,7 +268,7 @@ a:active{
 }
 
 .socialmedia-list{
-  padding:30px 0 30px 0;
+  padding:10px 0 10px 0;
   display:inline-block;
 }
 
@@ -483,7 +481,7 @@ a:active{
     width:80%;
     position: absolute;
     left:40px;
-    top:80px;
+    top:60px;
     margin:0 auto 0 auto;
     border-top:3px solid black;
     border-left:0px;
@@ -494,7 +492,11 @@ a:active{
     line-height: auto;
     width: auto;
     font-size:12px;
-    margin:0px auto 0px auto;
+    margin:30px auto 30px auto;
+  }
+
+  .heading-name .surya{
+    margin:20px 0;
   }
 
   .experience-history{
@@ -622,7 +624,11 @@ a:active{
   .heading-name{
     width:auto;
     line-height: 40px;
-    margin:0px auto;
+    margin:10px auto;
+  }
+
+  .heading-name surya{
+    margin:20px 0;
   }
 
   .name-head{
@@ -638,7 +644,8 @@ a:active{
 
 
   .button-interaction{
-    margin:30px auto 30px auto;
+    width: 80%;
+    margin:30px auto 10px auto;
   }
 
   .figma{
