@@ -166,9 +166,10 @@ a:active{
 .button-interaction{
 
   position:relative;
-  margin:30px auto 30px auto;
-  padding:10px 30px;
-  background-color: #a65e12;
+  padding:10px 20px;
+  background-color: #CD5888;
+  border:none;
+  border-radius: 5px;
   color:white;
   stroke:none;
   font-weight: bold;
@@ -646,7 +647,7 @@ a:active{
 
 
   .button-interaction{
-    width: 80%;
+    width: 60%;
     margin:30px auto 10px auto;
   }
 
