@@ -149,7 +149,7 @@ a:active{
 
 /* About */
 .experience-list{
-  padding: 5px 0;
+  padding: 20px 0;
   line-height: auto;
 
 }
@@ -297,8 +297,8 @@ a:active{
 }
 
 .iconlist{
-  width:auto;
-  display: inline;
+  text-align: center;
+
 }
 
 .icon{
@@ -479,6 +479,16 @@ a:active{
     padding:50px 0 0px 0;
     width: 100%;
   }
+  .education-history{
+    margin:10px 0;
+  }
+
+  .experience-list1{
+    width:auto;
+    margin:5px auto 5px auto;
+    font-size:12px;
+    line-height: 25px;
+  }
 
   .vl{
     width:80%;
@@ -493,9 +503,7 @@ a:active{
 
   .heading-name{
     line-height: auto;
-    width: auto;
     font-size:12px;
-    margin:30px auto 30px auto;
   }
 
   .heading-name .surya{
@@ -503,11 +511,10 @@ a:active{
   }
 
   .experience-history{
-    width:80%;
-    margin:0px auto 0px auto;
+
+    margin:20px auto 0px auto;
     font-size:24px;
-    line height:auto;
-    text-align: center;
+
   }
 
   .name-head{
@@ -544,7 +551,10 @@ a:active{
   .vl{
     opacity:100%;
   }
+
 }
+
+
 
 
 
@@ -617,46 +627,57 @@ a:active{
 
   .numbers-list1{
     margin-bottom: 20px;
-}  }
+    }  }
 
-  .heading-home{
-    padding:0 0 60px 0;
-    width: 100%;
+    .heading-home{
+      padding:0 0 60px 0;
+      width: 100%;
+    }
+
+    .heading-name{
+      width:auto;
+      line-height: 40px;
+      margin:10px auto;
+    }
+
+    .heading-name .surya{
+      margin:20px 0;
+    }
+
+    .name-head{
+      left:0px;
+      top:60px;
+      width:auto;
+      position: relative;
+    }
+
+    .UX-banner{
+      margin-top:30px;
+    }
+
+    .experience-list1{
+      width:auto;
+      margin:5px auto 5px auto;
+      font-size:12px;
+      line-height: 25px;
+
+    }
+
+
+
+    .button-interaction{
+      width: 60%;
+      margin:30px auto 10px auto;
+    }
+
+    .figma{
+      width:360px;
+      height:600px;
+      width: 100%;
+      margin:0 auto;
+    }
+
+    
+
+
   }
-
-  .heading-name{
-    width:auto;
-    line-height: 40px;
-    margin:10px auto;
-  }
-
-  .heading-name .surya{
-    margin:20px 0;
-  }
-
-  .name-head{
-    left:0px;
-    top:60px;
-    width:auto;
-    position: relative;
-  }
-
-  .UX-banner{
-    margin-top:30px;
-  }
-
-
-  .button-interaction{
-    width: 60%;
-    margin:30px auto 10px auto;
-  }
-
-  .figma{
-    width:360px;
-    height:600px;
-    width: 100%;
-    margin:0 auto;
-  }
-
-
-}
