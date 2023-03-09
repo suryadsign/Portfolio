@@ -372,7 +372,7 @@ a:active{
   position: relative;
   margin-left:0px;
   margin-right:10px;
-  border: 0.2px solid #f6f6f6;
+  border: 4px solid #f6f6f6;
   line-height: 40px;
   /* background-color:#FFE5E5; */
 }
@@ -428,6 +428,10 @@ a:active{
   .overall-numbers{
     width:80%;
     margin:30px auto 30px auto;
+  }
+
+  .iconlist{
+    text-align: center;
   }
 
   .numbers-list1{
@@ -572,6 +576,10 @@ a:active{
     text-align: center;
   }
 
+  .iconlist{
+    text-align: center;
+  }
+
   a.portfoliocard1 {
     margin-bottom:30px;
   }
@@ -660,7 +668,6 @@ a:active{
       margin:5px auto 5px auto;
       font-size:12px;
       line-height: 25px;
-
     }
 
 
@@ -677,7 +684,7 @@ a:active{
       margin:0 auto;
     }
 
-    
+
 
 
   }
