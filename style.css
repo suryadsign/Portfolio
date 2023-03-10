@@ -409,6 +409,13 @@ a:active{
   height:auto;
 }
 
+.copyright{
+  width: 80%;
+  margin:10px auto 10px auto;
+  font-size:10px;
+}
+
+
 /* Viewport */
 @media screen and (min-width:360px)and (max-width:540px){
 
@@ -523,10 +530,8 @@ a:active{
   }
 
   .experience-history{
-
     margin:20px auto 0px auto;
     font-size:24px;
-
   }
 
   .name-head{
@@ -643,7 +648,7 @@ a:active{
 
   .numbers-list1{
     margin-bottom: 20px;
-    }  }
+    }
 
     .heading-home{
       padding:0 0 60px 0;
@@ -692,7 +697,10 @@ a:active{
       margin:0 auto;
     }
 
-
-
+    .copyright{
+      width: 80%;
+      margin:10px auto 10px auto;
+      font-size:8px;
+    }
 
   }
