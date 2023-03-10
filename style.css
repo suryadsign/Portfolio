@@ -56,20 +56,20 @@ body{
 }
 
 .sidebar a:hover:not(.active) {
-  color: black;
-  opacity:20%;
+  color: #CD5888;
+  opacity:50%;
 }
 
 
 
 a:link{
   text-decoration: none;
-  color:black;
+  color:#CD5888;
 }
 
 a:hover{
   text-decoration: none;
-  color:grey;
+  color:#CD5888;
 }
 
 a:visited{
