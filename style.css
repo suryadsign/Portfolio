@@ -141,7 +141,7 @@ a:active{
 .name-head{
   width: auto;
   position: relative;
-  margin-top:30px;
+  margin-top:0px;
   left: 0;
   bottom:10px;
 
@@ -495,7 +495,7 @@ a:active{
   }
 
   .heading-home{
-    padding:50px 0 0px 0;
+    padding:0px 0 0px 0;
     width: 100%;
   }
   .education-history{
@@ -536,7 +536,7 @@ a:active{
 
   .name-head{
     left:0px;
-    top:20px;
+    top:0px;
     width:auto;
     position: relative;
   }
@@ -651,7 +651,7 @@ a:active{
     }
 
     .heading-home{
-      padding:0 0 60px 0;
+      padding:0 0 0 0;
       width: 100%;
     }
 
@@ -667,7 +667,7 @@ a:active{
 
     .name-head{
       left:0px;
-      top:60px;
+      top:0;
       width:auto;
       position: relative;
     }
