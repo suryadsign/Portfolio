@@ -46,6 +46,7 @@ body{
   position: fixed;
   height: 100%;
   overflow: auto;
+  box-shadow: 1px 0 10px #D4D4D4;
 }
 
 .sidebar a {
