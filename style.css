@@ -195,7 +195,7 @@ a:active{
 }
 
 .experience-list {
-  padding:10px;
+  padding:10px 10px 10px 0;
   /* border:1px solid #E4E4E4; */
   border-radius: 10px;
   margin:10px 0;
@@ -210,10 +210,37 @@ a:active{
 
 /* Portfolio */
 
+#portfolioredirect
+{
+position: relative;
+margin:10px 0;
+display: inline;
+}
+
+#portfolioredirect:hover
+{
+position: relative;
+left:5px;
+}
+
+
+.portfolio-history{
+  position: relative;
+  display: inline-block;
+  font-size: 24px;
+  margin:0;
+  color:#CD5888;
+}
+
+#imgclick{
+  position: relative;
+  width:24px;
+  height:24px;
+  top:4px;
+}
 
 
 .button-interaction{
-
   position:relative;
   padding:10px 20px;
   background-color: #CD5888;
@@ -252,7 +279,7 @@ a:active{
 
 
 .portfoliocards{
-  margin:20px 0 30px 0;
+  margin:0px 0 30px 0;
 }
 
 .portfoliocard1{
@@ -262,7 +289,14 @@ a:active{
   display: inline-block;
   border-radius: 2px;
   margin:10px 10px;
+  position: relative;
+  border-radius: 5px;
   box-shadow: 0px 0px 1px #717171;
+}
+
+.portfoliocard1:hover{
+  border-radius: 5px;
+  box-shadow: 5px 5px  black;
 
 }
 
