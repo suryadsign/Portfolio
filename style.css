@@ -350,19 +350,23 @@ a:active{
 .iconlist{
   text-align: left;
   font-family: 'zodiak', sans-serif;
-  margin-bottom:30px;
-
+  margin-bottom:10PX;
+  width:30%;
+  padding:10px;
+  background-color: #F6F6F6;
 }
 
 .icon{
-  width:12px;
-  height:12px;
+  width:20px;
+  height:20px;
 }
 
 .ratingtext{
   display: inline-block;
-  margin:10px 5px 10px 5px;
-  font-size: 12px;
+  margin:5px;
+  font-size: 14px;
+  position: relative;
+  bottom:5px;
 }
 
 .overall-numbers{
@@ -495,6 +499,22 @@ a:active{
 
   .iconlist{
     text-align: center;
+    margin-bottom:30px;
+    width:70%;
+    margin:0 auto 0 auto;
+    padding:10px;
+
+  }
+
+  .ratingtext{
+    font-size: 12px;
+    position: relative;
+    bottom:5px;
+  }
+
+  .icon{
+    width:16px;
+    height:16px;
   }
 
   .numbers-list1{
@@ -663,6 +683,21 @@ a:active{
 
   .iconlist{
     text-align: center;
+    margin-bottom:30px;
+    width:80%;
+    margin:0 auto 0 auto;
+    padding:10px;
+  }
+
+  .ratingtext{
+    font-size: 12px;
+    position: relative;
+    bottom:5px;
+  }
+
+  .icon{
+    width:16px;
+    height:16px;
   }
 
   a.portfoliocard1 {
