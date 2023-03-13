@@ -1,7 +1,8 @@
 body{
   margin:0px;
   height: auto;
-  font-family: 'Philosopher', sans-serif;
+  font-family: 'Zodiak', serif;
+  font-family: 'Bebas Neue', sans-serif;
 }
 
 .logo{
@@ -108,7 +109,7 @@ a:active{
 /* Workspace edits */
 
 .workspace {
-  width:80%;
+  width:82%;
   height:auto;
   position:relative;
   float: right;
@@ -156,15 +157,54 @@ a:active{
 }
 
 /* About */
-.experience-list{
-  padding: 0 0 20px 0;
-  line-height: auto;
 
+.experience{
+  color: #5D3891;
+  margin:10px 0 0 0;
+}
+
+.experience-date{
+  color:grey;
+  font-family: 'zodiak', serif;
+  margin-bottom:0px;
+}
+
+.experience-designation{
+  margin:10px 0;
+  font-weight: regular;
+  font-size: 20px;
+}
+
+.experience-history{
+  font-size: 24px;
+  width: auto;
+  margin:10px 0;
+  color:#CD5888;
+}
+
+.experience-description{
+  font-size: 12px;
+  font-family: 'zodiak', serif;
+  width:auto;
+  padding:20px 20px;
+  margin: 0px;
+  width: 80%;
+  text-align: left;
+  background-color: #FFFBF3;
+}
+
+.experience-list {
+  padding:10px;
+  /* border:1px solid #E4E4E4; */
+  border-radius: 10px;
+  margin:10px 0;
 }
 
 .education-list{
   margin-top:30px;
 }
+
+
 
 
 /* Portfolio */
@@ -187,9 +227,14 @@ a:active{
 
 .image{
   width:250px;
-  margin-bottom:20px;
+  margin-bottom:0;
   height: auto;
-  border-radius:10px;
+  border-radius:0;
+}
+
+.image:hover{
+    width:100%;
+    height: auto;
 }
 
 .bannerimages{
@@ -206,28 +251,26 @@ a:active{
 
 
 .portfoliocards{
-  margin:30px 0 30px 0;
-}
-
-.portfoliocard1{
-  margin:0px 10px 0px 10px;
+  margin:20px 0 30px 0;
 }
 
 .portfoliocard1{
   width:250px;
   height:auto;
-  padding:20px;
+  padding:10px;
   display: inline-block;
   border-radius: 2px;
+  margin:10px 10px;
   box-shadow: 0px 0px 1px #717171;
 
 }
 
 .portfolio-text{
-  font-size: 24px;
-  margin-bottom:5px;
+  font-size: 16px;
+  margin:5px 0;
   line-height: 30px;
-  text-align: left;
+  text-align: center;
+
 }
 
 .portfolio-description {
@@ -275,7 +318,7 @@ a:active{
 /* Socialmedia */
 
 .socialmedia{
-  margin:50px 0 0 0;
+  margin:20px 0 0 0;
 }
 
 .socialmedia-list{
@@ -306,17 +349,20 @@ a:active{
 
 .iconlist{
   text-align: left;
+  font-family: 'zodiak', sans-serif;
+  margin-bottom:30px;
 
 }
 
 .icon{
-  width:16px;
-  height:16px;
+  width:12px;
+  height:12px;
 }
 
 .ratingtext{
   display: inline-block;
   margin:10px 5px 10px 5px;
+  font-size: 12px;
 }
 
 .overall-numbers{
@@ -343,6 +389,7 @@ a:active{
   font-size: 36px;
   font-weight: bold;
   margin:20px 0 10px 0;
+  letter-spacing: 2px;
 }
 
 /* skills */
@@ -366,7 +413,7 @@ a:active{
 
 .skills-numbers{
   display: inline-block;
-  margin:30px 0px 30px 0px;
+  margin:20px 0px 20px 0px;
 
 }
 
@@ -382,13 +429,13 @@ a:active{
   margin-right:10px;
   border: 4px solid #f6f6f6;
   line-height: 40px;
-  /* background-color:#FFE5E5; */
 }
 
 .skillslist1{
   font-size: 18px;
   font-weight: bold;
   margin:0px 0 10px 0;
+  letter-spacing: 1px;
 }
 
 .skillslist1-description{
@@ -410,14 +457,15 @@ a:active{
 }
 
 .copyright{
-  width: 80%;
-  margin:10px auto 10px auto;
+  margin:20px auto 10px auto;
   font-size:10px;
+  font-family: 'Zodiak', serif;
+  text-align: center;
 }
 
 
 /* Viewport */
-@media screen and (min-width:360px)and (max-width:540px){
+@media screen and (min-width:360px)and (max-width:539px){
 
   .sidebar {
     padding-top:20px;
@@ -457,12 +505,9 @@ a:active{
 
   }
 
-  .overall-numbers{
-    width:100%;
-  }
 
   .skills-numbers{
-    margin:20px auto 0 auto;
+    margin:0 auto 0 auto;
   }
 
   .skills-list1{
@@ -492,6 +537,7 @@ a:active{
 
   .numbers-list1{
     margin-bottom: 20px;
+
   }
 
   .heading-home{
@@ -500,6 +546,23 @@ a:active{
   }
   .education-history{
     margin:10px 0;
+  }
+
+  .experience-description{
+    font-size: 12px;
+    font-family: 'zodiak', sans-serif;
+    width:80%;
+    padding:20px 10px;
+    line-height: 20px;
+    margin:10px auto;
+    background-color: #FFFBF3;
+    text-align: center;
+  }
+
+  .experience-list{
+    margin:0 0 0 0;
+    line-height: 20px;
+    border:none;
   }
 
   .experience-list1{
@@ -569,6 +632,15 @@ a:active{
     opacity:100%;
   }
 
+  .copyright{
+    width: 80%;
+    margin:20px auto 20px auto;
+    font:12px;
+    font-family: 'Zodiak', serif;
+    text-align: center;
+
+  }
+
 }
 
 
@@ -602,19 +674,15 @@ a:active{
   }
 
   .overall-numbers{
-    width:80%;
-    margin:30px 10px;
-  }
-
-  .numbers-list1{
-    width: 50%;
+    width:70%;
+    margin:30px auto;
     position: relative;
-    left:20%;
-
+    left:20px;
   }
+
 
   .skills-numbers{
-    width:80%;
+    width: 80%;
     margin:0 auto 0 auto;
   }
 
@@ -647,6 +715,7 @@ a:active{
   }
 
   .numbers-list1{
+    width: 300px;
     margin-bottom: 20px;
     }
 
@@ -676,14 +745,22 @@ a:active{
       margin-top:30px;
     }
 
-    .experience-list1{
-      width:auto;
-      margin:5px auto 5px auto;
-      font-size:12px;
-      line-height: 25px;
+    .experience-list{
+      margin:0 0 0 0;
+      line-height: 20px;
+      border:none;
     }
 
-
+    .experience-description{
+      font-size: 12px;
+      font-family: 'zodiak', sans-serif;
+      width:80%;
+      padding:20px 10px;
+      line-height: 20px;
+      margin:10px auto;
+      background-color: #FFFBF3;
+      text-align: center;
+    }
 
     .button-interaction{
       width: 60%;
@@ -699,8 +776,10 @@ a:active{
 
     .copyright{
       width: 80%;
-      margin:10px auto 10px auto;
-      font-size:8px;
+      margin:20px auto 20px auto;
+      font-size:10px;
+      font-family: 'Zodiak', serif;
+      text-align: center;
     }
 
   }
